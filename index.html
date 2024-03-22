@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera Landing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                darkBlack : '#010213',
+                darkBlackLight : '#232323',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <nav class="flex items-center justify-between max-w-7xl mx-auto h-20">
+        <span class="text-2xl">G.E.G.P. <i class="text-xs">Developer</i></span>
+        <div class="flex gap-8">
+            <a href="#" class="hover:text-blue-600">Acerca de</a>
+            <a href="#" class="hover:text-blue-600">Servicios</a>
+            <a href="#" class="hover:text-blue-600">Proyectos</a>
+        </div>
+        <button class="bg-green-700 text-white hover:bg-green-500 h-10 w-[120px] rounded-lg ">Contacto</button>
+    </nav>
+    <section class="flex min-h-[calc(100vh-80px)] items-center justify-center text-center">
+        <div>
+            <img class="mx-auto" src="./img/freelancer.png" alt="">
+            <h1 class="text-[64px] text-darkBlack">Prueba de Landing Page</h1>
+            <p class="text-[32px] text-[#363636]">Nuestra nueva herramienta para pruebas de usabilidad.</p>
+        </div>
+    </section>
+
+    <section class="bg-darkBlack py-20 text-white">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl">Desarollamos productos que funcionan</h2>
+            <p class="text-[#EAE9E9] text-2xl font-light mt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde natus distinctio eos iure laborum repudiandae molestias, quos tenetur voluptatibus doloribus autem sit vitae odit ducimus ullam adipisci. Dignissimos, consequuntur eius?</p>
+            <div class="flex gap-6 mt-20">
+                <div class="bg-darkBlackLight rounded-2xl px-6 py-8 ">
+                    <span class="text-4xl">💡</span>
+                    <h3 class="text-center">Laravel</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, illum temporibus! Doloremque aspernatur minima, voluptatibus animi, suscipit nihil explicabo magnam pariatur autem quidem laboriosam placeat debitis, maiores ad nesciunt iure.</p>
+                </div>
+                <div class="bg-darkBlackLight rounded-2xl px-6 py-8 ">
+                    <span class="text-4xl">💡</span>
+                    <h3 class="text-center">React</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, illum temporibus! Doloremque aspernatur minima, voluptatibus animi, suscipit nihil explicabo magnam pariatur autem quidem laboriosam placeat debitis, maiores ad nesciunt iure.</p>
+                </div>
+                <div class="bg-darkBlackLight rounded-2xl px-6 py-8 ">
+                    <span class="text-4xl">💡</span>
+                    <h3 class="text-center">Vue</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, illum temporibus! Doloremque aspernatur minima, voluptatibus animi, suscipit nihil explicabo magnam pariatur autem quidem laboriosam placeat debitis, maiores ad nesciunt iure.</p>
+                </div>
+                <div class="bg-darkBlackLight rounded-2xl px-6 py-8 ">
+                    <span class="text-4xl">💡</span>
+                    <h3 class="text-center">Angular</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, illum temporibus! Doloremque aspernatur minima, voluptatibus animi, suscipit nihil explicabo magnam pariatur autem quidem laboriosam placeat debitis, maiores ad nesciunt iure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
